@@ -1,0 +1,30 @@
+{
+  "name": "@inf3rno/appendable-json",
+  "version": "0.1.0",
+  "description": "Appendable JSON based format",
+  "keywords": [
+    "JSON",
+    "appendable"
+  ],
+  "license": "MIT",
+  "author": "László Lajos Jánszky",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inf3rno/appendable-json"
+  },
+  "bugs": {
+    "url": "https://github.com/inf3rno/appendable-json/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test/"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {}
+}
